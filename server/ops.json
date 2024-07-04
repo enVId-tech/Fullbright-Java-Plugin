@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "46edebbb-6958-4a8b-bc67-778234d18b23",
+    "name": "enVIdTech",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

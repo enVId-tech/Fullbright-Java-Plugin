@@ -1,0 +1,11 @@
+main: plugin.first.App
+name: fun-plugin
+version: 0.2
+api-version: '1.21'
+commands:
+  nightvision:
+    description: Gives you night vision
+    usage: /<command>
+    permission: fun-plugin.nightvision
+    aliases:
+    - nv
