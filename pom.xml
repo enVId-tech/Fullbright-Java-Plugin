@@ -22,7 +22,7 @@
           <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
       </repository>
   </repositories>
-
+  
   <dependencies>
       <dependency>
             <groupId>org.spigotmc</groupId>
@@ -31,7 +31,6 @@
             <scope>provided</scope>
       </dependency>
   </dependencies>
-  
   <build>
     <sourceDirectory>${project.basedir}/src/main/java</sourceDirectory>
     <resources>

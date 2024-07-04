@@ -1,61 +1,69 @@
-[19:50:47] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins\fun-plugin-1.0-SNAPSHOT.jar'...
-[19:50:47] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins\fun-plugin-1.0-SNAPSHOT.jar' in 290ms.
-[19:50:51] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[19:50:52] [ServerMain/INFO]: Loaded 1290 recipes
-[19:50:52] [ServerMain/INFO]: Loaded 1399 advancements
-[19:50:53] [Server thread/INFO]: Starting minecraft server version 1.21
-[19:50:53] [Server thread/INFO]: Loading properties
-[19:50:53] [Server thread/INFO]: This server is running Paper version 1.21-40-master@b45d9b6 (2024-07-01T08:23:14Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[19:50:53] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:50:53] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:50:54] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[22:34:43] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins\fun-plugin-1.0-SNAPSHOT.jar'...
+[22:34:43] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins\fun-plugin-1.0-SNAPSHOT.jar' in 248ms.
+[22:34:44] [ServerMain/ERROR]: [DirectoryProviderSource] Error loading plugin: java.lang.IllegalArgumentException: Directory 'plugins\.paper-remapped\fun-plugin-1.0-SNAPSHOT.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
+java.lang.RuntimeException: java.lang.IllegalArgumentException: Directory 'plugins\.paper-remapped\fun-plugin-1.0-SNAPSHOT.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
+	at io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:81) ~[paper-1.21.jar:1.21-40-b45d9b6]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:52) ~[paper-1.21.jar:1.21-40-b45d9b6]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:17) ~[paper-1.21.jar:1.21-40-b45d9b6]
+	at io.papermc.paper.plugin.util.EntrypointUtil.registerProvidersFromSource(EntrypointUtil.java:15) ~[paper-1.21.jar:1.21-40-b45d9b6]
+	at io.papermc.paper.plugin.PluginInitializerManager.load(PluginInitializerManager.java:109) ~[paper-1.21.jar:1.21-40-b45d9b6]
+	at net.minecraft.server.Main.main(Main.java:122) ~[paper-1.21.jar:1.21-40-b45d9b6]
+	at org.bukkit.craftbukkit.Main.main(Main.java:298) ~[paper-1.21.jar:1.21-40-b45d9b6]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Directory 'plugins\.paper-remapped\fun-plugin-1.0-SNAPSHOT.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
+	... 9 more
+[22:34:47] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[22:34:48] [ServerMain/INFO]: Loaded 1290 recipes
+[22:34:48] [ServerMain/INFO]: Loaded 1399 advancements
+[22:34:49] [Server thread/INFO]: Starting minecraft server version 1.21
+[22:34:49] [Server thread/INFO]: Loading properties
+[22:34:49] [Server thread/INFO]: This server is running Paper version 1.21-40-master@b45d9b6 (2024-07-01T08:23:14Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[22:34:49] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:34:49] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:34:50] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[19:50:54] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 5 worker threads, and population gen parallelism of 5 threads
-[19:50:54] [Server thread/INFO]: Default game type: SURVIVAL
-[19:50:54] [Server thread/INFO]: Generating keypair
-[19:50:54] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:50:54] [Server thread/INFO]: Using default channel type
-[19:50:54] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[19:50:54] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[19:50:54] [Server thread/INFO]: [fun-plugin] Loading server plugin fun-plugin v0.1
-[19:50:54] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:50:54] [Server thread/INFO]: Preparing level "world"
-[19:50:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:50:55] [Server thread/INFO]: Time elapsed: 756 ms
-[19:50:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[19:50:55] [Server thread/INFO]: Time elapsed: 58 ms
-[19:50:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[19:50:55] [Server thread/INFO]: Time elapsed: 39 ms
-[19:50:55] [Server thread/INFO]: [fun-plugin] Enabling fun-plugin v0.1
-[19:50:55] [Server thread/INFO]: [fun-plugin] Hello World!
-[19:50:55] [Server thread/INFO]: Running delayed init tasks
-[19:50:55] [Server thread/INFO]: Done (2.647s)! For help, type "help"
-[19:50:55] [Server thread/INFO]: Timings Reset
-[19:55:01] [Server thread/INFO]: Unknown or incomplete command, see below for error
-sp<--[HERE]
-[19:55:04] [Server thread/INFO]: Stopping the server
-[19:55:04] [Server thread/INFO]: Stopping server
-[19:55:04] [Server thread/INFO]: [fun-plugin] Disabling fun-plugin v0.1
-[19:55:04] [Server thread/INFO]: [fun-plugin] Goodbye World!
-[19:55:04] [Server thread/INFO]: Saving players
-[19:55:04] [Server thread/INFO]: Saving worlds
-[19:55:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[19:55:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[19:55:04] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[19:55:04] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[19:55:04] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world' in 0.16s
-[19:55:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[19:55:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[19:55:04] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[19:55:04] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[19:55:04] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.08s
-[19:55:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[19:55:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[19:55:04] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[19:55:04] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[19:55:04] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.09s
-[19:55:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:55:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:55:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:55:04] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:34:50] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 5 worker threads, and population gen parallelism of 5 threads
+[22:34:50] [Server thread/INFO]: Default game type: SURVIVAL
+[22:34:50] [Server thread/INFO]: Generating keypair
+[22:34:50] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:34:50] [Server thread/INFO]: Using default channel type
+[22:34:50] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[22:34:50] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[22:34:50] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:34:50] [Server thread/INFO]: Preparing level "world"
+[22:34:50] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:34:51] [Server thread/INFO]: Time elapsed: 642 ms
+[22:34:51] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[22:34:51] [Server thread/INFO]: Time elapsed: 50 ms
+[22:34:51] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[22:34:51] [Server thread/INFO]: Time elapsed: 43 ms
+[22:34:51] [Server thread/INFO]: Running delayed init tasks
+[22:34:51] [Server thread/INFO]: Done (2.317s)! For help, type "help"
+[22:34:51] [Server thread/INFO]: Timings Reset
+[22:35:15] [Server thread/INFO]: Unknown or incomplete command, see below for error
+sto<--[HERE]
+[22:35:16] [Server thread/INFO]: Stopping the server
+[22:35:16] [Server thread/INFO]: Stopping server
+[22:35:16] [Server thread/INFO]: Saving players
+[22:35:16] [Server thread/INFO]: Saving worlds
+[22:35:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:35:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[22:35:16] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[22:35:16] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[22:35:17] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world' in 0.13s
+[22:35:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[22:35:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[22:35:17] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[22:35:17] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[22:35:17] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.05s
+[22:35:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[22:35:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[22:35:17] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[22:35:17] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[22:35:17] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.04s
+[22:35:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:35:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:35:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:35:17] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
