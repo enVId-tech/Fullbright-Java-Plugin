@@ -8,6 +8,7 @@ public class App extends JavaPlugin {
         getLogger().info("Hello World!");
         getCommand("nightvision").setExecutor(new NightVision());
         getCommand("nv").setExecutor(new NightVision());
+        getServer().getPluginManager().registerEvents(new NightVisionKeyPress(), this);
     }
 
     @Override

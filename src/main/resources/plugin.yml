@@ -1,5 +1,5 @@
 main: plugin.first.App
-name: fun-plugin
+name: Night-Vision
 version: 0.2
 api-version: '1.21'
 commands:

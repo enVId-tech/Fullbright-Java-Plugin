@@ -1,83 +1,93 @@
-[01:14:52] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Remapping server...
-[01:14:55] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Done remapping server in 3006ms.
-[01:14:55] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins\fun-plugin-1.0-SNAPSHOT.jar'...
-[01:14:55] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins\fun-plugin-1.0-SNAPSHOT.jar' in 61ms.
-[01:14:58] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[01:14:59] [ServerMain/INFO]: Loaded 1290 recipes
-[01:14:59] [ServerMain/INFO]: Loaded 1399 advancements
-[01:15:00] [Server thread/INFO]: Starting minecraft server version 1.21
-[01:15:00] [Server thread/INFO]: Loading properties
-[01:15:00] [Server thread/INFO]: This server is running Paper version 1.21-40-master@b45d9b6 (2024-07-01T08:23:14Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[01:15:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[01:15:00] [Server thread/INFO]: Using 4 threads for Netty based IO
-[01:15:00] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 5 worker threads, and population gen parallelism of 5 threads
-[01:15:00] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[16:40:24] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins\Night-Vision-1.1.jar'...
+[16:40:24] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins\Night-Vision-1.1.jar' in 454ms.
+[16:40:30] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:40:31] [ServerMain/INFO]: Loaded 1290 recipes
+[16:40:31] [ServerMain/INFO]: Loaded 1399 advancements
+[16:40:31] [Server thread/INFO]: Starting minecraft server version 1.21
+[16:40:31] [Server thread/INFO]: Loading properties
+[16:40:31] [Server thread/INFO]: This server is running Paper version 1.21-40-master@b45d9b6 (2024-07-01T08:23:14Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[16:40:32] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:40:32] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:40:32] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[01:15:01] [Server thread/INFO]: Default game type: SURVIVAL
-[01:15:01] [Server thread/INFO]: Generating keypair
-[01:15:01] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:15:01] [Server thread/INFO]: Using default channel type
-[01:15:01] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[01:15:01] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[01:15:01] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.0.2-SNAPSHOT
-[01:15:01] [Server thread/INFO]: [ViaVersion] ViaVersion 5.0.2-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
-[01:15:02] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[01:15:02] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[01:15:03] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[01:15:03] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[01:15:03] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[01:15:03] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.0.1
-[01:15:03] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.2-SNAPSHOT
-[01:15:03] [Server thread/INFO]: [fun-plugin] Loading server plugin fun-plugin v0.1
-[01:15:03] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[01:15:03] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.2-SNAPSHOT
-[01:15:03] [Server thread/INFO]: Preparing level "world"
-[01:15:04] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[01:15:04] [Server thread/INFO]: Time elapsed: 411 ms
-[01:15:04] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[01:15:04] [Server thread/INFO]: Time elapsed: 55 ms
-[01:15:04] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[01:15:04] [Server thread/INFO]: Time elapsed: 67 ms
-[01:15:04] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.0.2-SNAPSHOT
-[01:15:04] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21 (767)
-[01:15:04] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.0.1
-[01:15:04] [Server thread/INFO]: [fun-plugin] Enabling fun-plugin v0.1
-[01:15:04] [Server thread/INFO]: [fun-plugin] Hello World!
-[01:15:04] [Server thread/INFO]: Running delayed init tasks
-[01:15:04] [Server thread/INFO]: Done (4.762s)! For help, type "help"
-[01:15:04] [Server thread/INFO]: *************************************************************************************
-[01:15:04] [Server thread/INFO]: This is the first time you're starting this server.
-[01:15:04] [Server thread/INFO]: It's recommended you read our 'Getting Started' documentation for guidance.
-[01:15:04] [Server thread/INFO]: View this and more helpful information here: https://docs.papermc.io/paper/next-steps
-[01:15:04] [Server thread/INFO]: *************************************************************************************
-[01:15:04] [Server thread/INFO]: Timings Reset
-[01:15:04] [Craft Scheduler Thread - 3 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[01:15:04] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
-[01:15:05] [User Authenticator #0/INFO]: UUID of player enVIdTech is 46edebbb-6958-4a8b-bc67-778234d18b23
-[01:15:05] [Server thread/INFO]: enVIdTech joined the game
-[01:15:06] [Server thread/INFO]: enVIdTech[/127.0.0.1:57411] logged in with entity id 1 at ([world]26.542449115047585, 66.0, 5.317982589485049)
-[01:15:08] [Server thread/INFO]: enVIdTech issued server command: /nv
-[01:15:09] [Server thread/INFO]: enVIdTech issued server command: /nv
-[01:15:10] [Server thread/INFO]: enVIdTech issued server command: /nv
-[01:15:10] [Server thread/INFO]: enVIdTech issued server command: /nv
-[01:15:11] [Server thread/INFO]: enVIdTech issued server command: /nv
-[01:15:41] [Server thread/INFO]: enVIdTech issued server command: /reload confirm
-[01:15:41] [Server thread/INFO]: enVIdTech: Please note that this command is not supported and may cause issues when using some plugins.
-[01:15:41] [Server thread/INFO]: enVIdTech: If you encounter any issues please use the /stop command to restart your server.
-[01:15:41] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[01:15:41] [Server thread/INFO]: Using 4 threads for Netty based IO
-[01:15:41] [Server thread/INFO]: [fun-plugin] Disabling fun-plugin v0.1
-[01:15:41] [Server thread/INFO]: [fun-plugin] Goodbye World!
-[01:15:41] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.2-SNAPSHOT
-[01:15:41] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.0.1
-[01:15:41] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.0.2-SNAPSHOT
-[01:15:41] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[01:15:42] [Server thread/INFO]: Loaded 1290 recipes
-[01:15:42] [Server thread/INFO]: Loaded 1399 advancements
-[01:15:42] [Paper Async Command Builder Thread Pool - 0/ERROR]: Caught previously unhandled exception :
-[01:15:42] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins\fun-plugin-1.0-SNAPSHOT.jar'...
-[01:15:42] [Paper Async Command Builder Thread Pool - 0/ERROR]: Paper Async Command Builder Thread Pool - 0
+[16:40:32] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 5 worker threads, and population gen parallelism of 5 threads
+[16:40:33] [Server thread/INFO]: Default game type: SURVIVAL
+[16:40:33] [Server thread/INFO]: Generating keypair
+[16:40:33] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:40:33] [Server thread/INFO]: Using default channel type
+[16:40:33] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[16:40:33] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[16:40:33] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.0.2-SNAPSHOT
+[16:40:33] [Server thread/INFO]: [ViaVersion] ViaVersion 5.0.2-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[16:40:34] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[16:40:34] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[16:40:35] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[16:40:35] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[16:40:35] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[16:40:35] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.0.1
+[16:40:35] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.2-SNAPSHOT
+[16:40:35] [Server thread/INFO]: [Night-Vision] Loading server plugin Night-Vision v0.2
+[16:40:35] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:40:35] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.2-SNAPSHOT
+[16:40:35] [Server thread/INFO]: Preparing level "world"
+[16:40:36] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:40:36] [Server thread/INFO]: Time elapsed: 425 ms
+[16:40:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[16:40:36] [Server thread/INFO]: Time elapsed: 75 ms
+[16:40:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[16:40:36] [Server thread/INFO]: Time elapsed: 52 ms
+[16:40:36] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.0.2-SNAPSHOT
+[16:40:36] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21 (767)
+[16:40:37] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.0.1
+[16:40:37] [Server thread/INFO]: [Night-Vision] Enabling Night-Vision v0.2
+[16:40:37] [Server thread/INFO]: [Night-Vision] Hello World!
+[16:40:37] [Server thread/INFO]: Running delayed init tasks
+[16:40:37] [Server thread/INFO]: Done (5.278s)! For help, type "help"
+[16:40:37] [Server thread/INFO]: Timings Reset
+[16:40:37] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[16:40:37] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
+[16:41:15] [User Authenticator #0/INFO]: UUID of player enVIdTech is 46edebbb-6958-4a8b-bc67-778234d18b23
+[16:41:16] [Server thread/INFO]: enVIdTech joined the game
+[16:41:16] [Server thread/INFO]: enVIdTech[/127.0.0.1:64924] logged in with entity id 1 at ([world]22.64469756877751, 70.0, -39.4984951885393)
+[16:41:32] [Server thread/INFO]: enVIdTech lost connection: Disconnected
+[16:41:33] [Server thread/INFO]: enVIdTech left the game
+[16:42:42] [User Authenticator #1/INFO]: UUID of player enVIdTech is 46edebbb-6958-4a8b-bc67-778234d18b23
+[16:42:43] [Server thread/INFO]: enVIdTech joined the game
+[16:42:43] [Server thread/INFO]: enVIdTech[/127.0.0.1:65153] logged in with entity id 125 at ([world]16.183345624756594, 65.0, -64.54722967190698)
+[16:42:54] [Server thread/INFO]: enVIdTech issued server command: /nv
+[16:42:54] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:42:54] [Server thread/WARN]: Nag author(s): '[]' of 'Night-Vision v0.2' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[16:42:54] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: true
+[16:42:55] [Server thread/INFO]: enVIdTech issued server command: /nv
+[16:42:55] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:42:55] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: false
+[16:42:55] [Server thread/INFO]: enVIdTech issued server command: /nv
+[16:42:55] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:42:55] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: true
+[16:42:56] [Server thread/INFO]: enVIdTech issued server command: /nv
+[16:42:56] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:42:56] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: false
+[16:42:56] [Server thread/INFO]: enVIdTech issued server command: /nv
+[16:42:56] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:42:56] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: true
+[16:43:14] [Server thread/INFO]: enVIdTech issued server command: /plugins
+[16:45:13] [Server thread/INFO]: enVIdTech issued server command: /reload confirm
+[16:45:13] [Server thread/INFO]: enVIdTech: Please note that this command is not supported and may cause issues when using some plugins.
+[16:45:13] [Server thread/INFO]: enVIdTech: If you encounter any issues please use the /stop command to restart your server.
+[16:45:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:45:13] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:45:13] [Server thread/INFO]: [Night-Vision] Disabling Night-Vision v0.2
+[16:45:13] [Server thread/INFO]: [Night-Vision] Goodbye World!
+[16:45:13] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.2-SNAPSHOT
+[16:45:13] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.0.1
+[16:45:13] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.0.2-SNAPSHOT
+[16:45:13] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[16:45:14] [Server thread/INFO]: Loaded 1290 recipes
+[16:45:14] [Server thread/INFO]: Loaded 1399 advancements
+[16:45:14] [Paper Async Command Builder Thread Pool - 2/ERROR]: Caught previously unhandled exception :
+[16:45:14] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins\Night-Vision-1.1.jar'...
+[16:45:14] [Paper Async Command Builder Thread Pool - 2/ERROR]: Paper Async Command Builder Thread Pool - 2
 java.util.ConcurrentModificationException: null
 	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
 	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
@@ -87,358 +97,278 @@ java.util.ConcurrentModificationException: null
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
 	at java.base/java.lang.Thread.run(Thread.java:1570) ~[?:?]
-[01:15:42] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins\fun-plugin-1.0-SNAPSHOT.jar' in 88ms.
-[01:15:42] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.0.2-SNAPSHOT
-[01:15:42] [Server thread/INFO]: [ViaVersion] ViaVersion 5.0.2-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
-[01:15:42] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, this should work fine. If you get any console errors, try rebooting.
-[01:15:43] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[01:15:43] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[01:15:44] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[01:15:44] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[01:15:44] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[01:15:44] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.0.1
-[01:15:44] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.2-SNAPSHOT
-[01:15:44] [Server thread/INFO]: [fun-plugin] Loading server plugin fun-plugin v0.2
-[01:15:44] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[01:15:44] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.2-SNAPSHOT
-[01:15:44] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.0.2-SNAPSHOT
-[01:15:44] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21 (767)
-[01:15:44] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.0.1
-[01:15:44] [Server thread/INFO]: [fun-plugin] Enabling fun-plugin v0.2
-[01:15:44] [Server thread/INFO]: [fun-plugin] Hello World!
-[01:15:44] [Server thread/INFO]: enVIdTech: Reload complete.
-[01:15:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2927ms or 58 ticks behind
-[01:15:44] [Server thread/INFO]: Timings Reset
-[01:15:44] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[01:15:44] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
-[01:15:45] [Server thread/INFO]: enVIdTech issued server command: /nv
-[01:15:46] [Server thread/INFO]: enVIdTech issued server command: /nv
-[01:15:47] [Server thread/INFO]: enVIdTech issued server command: /nv
-[01:15:49] [Server thread/INFO]: enVIdTech issued server command: /nightvision
-[01:15:50] [Server thread/INFO]: enVIdTech issued server command: /nightvision
-[01:16:23] [Server thread/INFO]: enVIdTech issued server command: /reload confirm
-[01:16:23] [Server thread/INFO]: enVIdTech: Please note that this command is not supported and may cause issues when using some plugins.
-[01:16:23] [Server thread/INFO]: enVIdTech: If you encounter any issues please use the /stop command to restart your server.
-[01:16:23] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[01:16:23] [Server thread/INFO]: Using 4 threads for Netty based IO
-[01:16:23] [Server thread/INFO]: [fun-plugin] Disabling fun-plugin v0.2
-[01:16:23] [Server thread/INFO]: [fun-plugin] Goodbye World!
-[01:16:23] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.2-SNAPSHOT
-[01:16:23] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.0.1
-[01:16:23] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.0.2-SNAPSHOT
-[01:16:23] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[01:16:24] [Server thread/INFO]: Loaded 1290 recipes
-[01:16:24] [Server thread/INFO]: Loaded 1399 advancements
-[01:16:24] [Paper Async Command Builder Thread Pool - 1/ERROR]: Caught previously unhandled exception :
-[01:16:24] [Paper Async Command Builder Thread Pool - 1/ERROR]: Paper Async Command Builder Thread Pool - 1
-java.util.ConcurrentModificationException: null
-	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
-	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
-	at net.minecraft.commands.Commands.fillUsableCommands(Commands.java:540) ~[paper-1.21.jar:1.21-40-b45d9b6]
-	at net.minecraft.commands.Commands.sendAsync(Commands.java:499) ~[paper-1.21.jar:1.21-40-b45d9b6]
-	at net.minecraft.commands.Commands.lambda$sendCommands$6(Commands.java:478) ~[paper-1.21.jar:1.21-40-b45d9b6]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1570) ~[?:?]
-[01:16:24] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins\fun-plugin-1.0-SNAPSHOT.jar'...
-[01:16:24] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins\fun-plugin-1.0-SNAPSHOT.jar' in 100ms.
-[01:16:24] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.0.2-SNAPSHOT
-[01:16:24] [Server thread/INFO]: [ViaVersion] ViaVersion 5.0.2-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
-[01:16:24] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, this should work fine. If you get any console errors, try rebooting.
-[01:16:25] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[01:16:25] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[01:16:25] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[01:16:25] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[01:16:26] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[01:16:26] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.0.1
-[01:16:26] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.2-SNAPSHOT
-[01:16:26] [Server thread/INFO]: [fun-plugin] Loading server plugin fun-plugin v0.2
-[01:16:26] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[01:16:26] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.2-SNAPSHOT
-[01:16:26] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.0.2-SNAPSHOT
-[01:16:26] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21 (767)
-[01:16:26] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.0.1
-[01:16:26] [Server thread/INFO]: [fun-plugin] Enabling fun-plugin v0.2
-[01:16:26] [Server thread/INFO]: [fun-plugin] Hello World!
-[01:16:26] [Server thread/INFO]: enVIdTech: Reload complete.
-[01:16:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2661ms or 53 ticks behind
-[01:16:26] [Server thread/INFO]: Timings Reset
-[01:16:26] [Craft Scheduler Thread - 7 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[01:16:26] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
-[01:16:27] [Server thread/INFO]: enVIdTech issued server command: /nv
-[01:16:27] [Server thread/INFO]: [fun-plugin] [STDOUT] Command executed by enVIdTech
-[01:16:27] [Server thread/WARN]: Nag author(s): '[]' of 'fun-plugin v0.2' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
-[01:16:27] [Server thread/INFO]: [fun-plugin] [STDOUT] enVIdTech has night vision: true
-[01:16:28] [Server thread/INFO]: enVIdTech issued server command: /nv
-[01:16:28] [Server thread/INFO]: [fun-plugin] [STDOUT] Command executed by enVIdTech
-[01:16:28] [Server thread/INFO]: [fun-plugin] [STDOUT] enVIdTech has night vision: false
-[01:16:29] [Server thread/INFO]: enVIdTech issued server command: /nv
-[01:16:29] [Server thread/INFO]: [fun-plugin] [STDOUT] Command executed by enVIdTech
-[01:16:29] [Server thread/INFO]: [fun-plugin] [STDOUT] enVIdTech has night vision: true
-[01:16:29] [Server thread/INFO]: enVIdTech issued server command: /nv
-[01:16:29] [Server thread/INFO]: [fun-plugin] [STDOUT] Command executed by enVIdTech
-[01:16:29] [Server thread/INFO]: [fun-plugin] [STDOUT] enVIdTech has night vision: false
-[01:16:30] [Server thread/INFO]: enVIdTech issued server command: /nv
-[01:16:30] [Server thread/INFO]: [fun-plugin] [STDOUT] Command executed by enVIdTech
-[01:16:30] [Server thread/INFO]: [fun-plugin] [STDOUT] enVIdTech has night vision: true
-[01:16:30] [Server thread/INFO]: enVIdTech issued server command: /nv
-[01:16:30] [Server thread/INFO]: [fun-plugin] [STDOUT] Command executed by enVIdTech
-[01:16:30] [Server thread/INFO]: [fun-plugin] [STDOUT] enVIdTech has night vision: false
-[01:16:30] [Server thread/INFO]: enVIdTech issued server command: /nv
-[01:16:30] [Server thread/INFO]: [fun-plugin] [STDOUT] Command executed by enVIdTech
-[01:16:30] [Server thread/INFO]: [fun-plugin] [STDOUT] enVIdTech has night vision: true
-[01:16:31] [Server thread/INFO]: enVIdTech issued server command: /nv
-[01:16:31] [Server thread/INFO]: [fun-plugin] [STDOUT] Command executed by enVIdTech
-[01:16:31] [Server thread/INFO]: [fun-plugin] [STDOUT] enVIdTech has night vision: false
-[01:16:31] [Server thread/INFO]: enVIdTech issued server command: /nv
-[01:16:31] [Server thread/INFO]: [fun-plugin] [STDOUT] Command executed by enVIdTech
-[01:16:31] [Server thread/INFO]: [fun-plugin] [STDOUT] enVIdTech has night vision: true
-[01:16:31] [Server thread/INFO]: enVIdTech issued server command: /nv
-[01:16:31] [Server thread/INFO]: [fun-plugin] [STDOUT] Command executed by enVIdTech
-[01:16:31] [Server thread/INFO]: [fun-plugin] [STDOUT] enVIdTech has night vision: false
-[01:16:32] [Server thread/INFO]: enVIdTech issued server command: /nv
-[01:16:32] [Server thread/INFO]: [fun-plugin] [STDOUT] Command executed by enVIdTech
-[01:16:32] [Server thread/INFO]: [fun-plugin] [STDOUT] enVIdTech has night vision: true
-[01:16:32] [Server thread/INFO]: enVIdTech issued server command: /nv
-[01:16:32] [Server thread/INFO]: [fun-plugin] [STDOUT] Command executed by enVIdTech
-[01:16:32] [Server thread/INFO]: [fun-plugin] [STDOUT] enVIdTech has night vision: false
-[01:16:32] [Server thread/INFO]: enVIdTech issued server command: /nv
-[01:16:32] [Server thread/INFO]: [fun-plugin] [STDOUT] Command executed by enVIdTech
-[01:16:32] [Server thread/INFO]: [fun-plugin] [STDOUT] enVIdTech has night vision: true
-[01:16:35] [Server thread/INFO]: enVIdTech issued server command: /nv\
-[01:16:35] [Server thread/INFO]: enVIdTech issued server command: /nv\
-[01:16:36] [Server thread/INFO]: enVIdTech issued server command: /nv
-[01:16:36] [Server thread/INFO]: [fun-plugin] [STDOUT] Command executed by enVIdTech
-[01:16:36] [Server thread/INFO]: [fun-plugin] [STDOUT] enVIdTech has night vision: false
-[01:16:37] [Server thread/INFO]: enVIdTech issued server command: /nv
-[01:16:37] [Server thread/INFO]: [fun-plugin] [STDOUT] Command executed by enVIdTech
-[01:16:37] [Server thread/INFO]: [fun-plugin] [STDOUT] enVIdTech has night vision: true
-[01:16:37] [Server thread/INFO]: enVIdTech issued server command: /nv\
-[01:16:37] [Server thread/INFO]: enVIdTech issued server command: /nv\
-[01:16:39] [Server thread/INFO]: enVIdTech issued server command: /nv
-[01:16:39] [Server thread/INFO]: [fun-plugin] [STDOUT] Command executed by enVIdTech
-[01:16:39] [Server thread/INFO]: [fun-plugin] [STDOUT] enVIdTech has night vision: false
-[01:20:18] [Server thread/INFO]: enVIdTech issued server command: /give @s minecraft:command_block
-[01:20:18] [Netty Server IO #2/WARN]: [ViaVersion] ERROR IN Protocol1_21To1_20_5 IN REMAP OF SOUND (0x68)
-[01:20:18] [Netty Server IO #2/WARN]: io.netty.handler.codec.EncoderException: com.viaversion.viaversion.exception.InformativeException: Please report this on the Via support Discord or open an issue on the relevant GitHub repository
-[01:20:18] [Netty Server IO #2/WARN]: Packet Type: SOUND, Type: SoundEventType, Index: 1, Data: [], Source 0: com.viaversion.viabackwards.api.rewriters.SoundRewriter$$Lambda/0x0000017191090b20, Packet ID: 104
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:107)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:113)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:113)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113)
-[01:20:18] [Netty Server IO #2/WARN]: 	at net.minecraft.network.Connection$2.write(Connection.java:756)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:940)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:966)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:934)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:984)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1025)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:306)
-[01:20:18] [Netty Server IO #2/WARN]: 	at net.minecraft.network.Connection.doSendPacket(Connection.java:513)
-[01:20:18] [Netty Server IO #2/WARN]: 	at net.minecraft.network.Connection.lambda$sendPacket$13(Connection.java:498)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-[01:20:18] [Netty Server IO #2/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1570)
-[01:20:18] [Netty Server IO #2/WARN]: Caused by: com.viaversion.viaversion.exception.InformativeException: Please report this on the Via support Discord or open an issue on the relevant GitHub repository
-[01:20:18] [Netty Server IO #2/WARN]: Packet Type: SOUND, Type: SoundEventType, Index: 1, Data: [], Source 0: com.viaversion.viabackwards.api.rewriters.SoundRewriter$$Lambda/0x0000017191090b20, Packet ID: 104
-[01:20:18] [Netty Server IO #2/WARN]: Caused by: java.lang.IllegalStateException: zip file closed
-[01:20:18] [Netty Server IO #2/WARN]: 	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:846)
-[01:20:18] [Netty Server IO #2/WARN]: 	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:338)
-[01:20:18] [Netty Server IO #2/WARN]: 	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:516)
-[01:20:18] [Netty Server IO #2/WARN]: 	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:471)
-[01:20:18] [Netty Server IO #2/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:209)
-[01:20:18] [Netty Server IO #2/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:592)
-[01:20:18] [Netty Server IO #2/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:169)
-[01:20:18] [Netty Server IO #2/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164)
-[01:20:18] [Netty Server IO #2/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
-[01:20:18] [Netty Server IO #2/WARN]: 	at ViaVersion-5.0.2-SNAPSHOT.jar//com.viaversion.viaversion.api.minecraft.Holder.of(Holder.java:36)
-[01:20:18] [Netty Server IO #2/WARN]: 	at ViaVersion-5.0.2-SNAPSHOT.jar//com.viaversion.viaversion.api.type.types.misc.HolderType.read(HolderType.java:42)
-[01:20:18] [Netty Server IO #2/WARN]: 	at ViaVersion-5.0.2-SNAPSHOT.jar//com.viaversion.viaversion.api.type.types.misc.HolderType.read(HolderType.java:30)
-[01:20:18] [Netty Server IO #2/WARN]: 	at ViaVersion-5.0.2-SNAPSHOT.jar//com.viaversion.viaversion.protocol.packet.PacketWrapperImpl.read(PacketWrapperImpl.java:140)
-[01:20:18] [Netty Server IO #2/WARN]: 	at ViaBackwards-5.0.1.jar//com.viaversion.viabackwards.api.rewriters.SoundRewriter.lambda$getSoundHandler1_19_3$2(SoundRewriter.java:106)
-[01:20:18] [Netty Server IO #2/WARN]: 	at ViaVersion-5.0.2-SNAPSHOT.jar//com.viaversion.viaversion.api.protocol.AbstractProtocol.transform(AbstractProtocol.java:405)
-[01:20:18] [Netty Server IO #2/WARN]: 	at ViaVersion-5.0.2-SNAPSHOT.jar//com.viaversion.viaversion.protocol.packet.PacketWrapperImpl.apply(PacketWrapperImpl.java:369)
-[01:20:18] [Netty Server IO #2/WARN]: 	at ViaVersion-5.0.2-SNAPSHOT.jar//com.viaversion.viaversion.protocol.ProtocolPipelineImpl.transform(ProtocolPipelineImpl.java:122)
-[01:20:18] [Netty Server IO #2/WARN]: 	at ViaVersion-5.0.2-SNAPSHOT.jar//com.viaversion.viaversion.connection.UserConnectionImpl.transform(UserConnectionImpl.java:337)
-[01:20:18] [Netty Server IO #2/WARN]: 	at ViaVersion-5.0.2-SNAPSHOT.jar//com.viaversion.viaversion.connection.UserConnectionImpl.transformClientbound(UserConnectionImpl.java:313)
-[01:20:18] [Netty Server IO #2/WARN]: 	at ViaVersion-5.0.2-SNAPSHOT.jar//com.viaversion.viaversion.bukkit.handlers.BukkitEncodeHandler.encode(BukkitEncodeHandler.java:58)
-[01:20:18] [Netty Server IO #2/WARN]: 	at ViaVersion-5.0.2-SNAPSHOT.jar//com.viaversion.viaversion.bukkit.handlers.BukkitEncodeHandler.encode(BukkitEncodeHandler.java:35)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:90)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:113)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:113)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113)
-[01:20:18] [Netty Server IO #2/WARN]: 	at net.minecraft.network.Connection$2.write(Connection.java:756)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:940)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:966)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:934)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:984)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1025)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:306)
-[01:20:18] [Netty Server IO #2/WARN]: 	at net.minecraft.network.Connection.doSendPacket(Connection.java:513)
-[01:20:18] [Netty Server IO #2/WARN]: 	at net.minecraft.network.Connection.lambda$sendPacket$13(Connection.java:498)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-[01:20:18] [Netty Server IO #2/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1570)
-[01:20:18] [Server thread/INFO]: [enVIdTech: Gave 1 [Command Block] to enVIdTech]
-[01:20:18] [Netty Server IO #2/WARN]: [ViaVersion] ERROR IN Protocol1_21To1_20_5 IN REMAP OF SYSTEM_CHAT (0x6C)
-[01:20:18] [Netty Server IO #2/WARN]: io.netty.handler.codec.EncoderException: com.viaversion.viaversion.exception.InformativeException: Please report this on the Via support Discord or open an issue on the relevant GitHub repository
-[01:20:18] [Netty Server IO #2/WARN]: Source 0: com.viaversion.viaversion.rewriter.ComponentRewriter$$Lambda/0x0000017190f24a20
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:107)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:113)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:113)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113)
-[01:20:18] [Netty Server IO #2/WARN]: 	at net.minecraft.network.Connection$2.write(Connection.java:756)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:940)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:966)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:934)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:984)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1025)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:306)
-[01:20:18] [Netty Server IO #2/WARN]: 	at net.minecraft.network.Connection.doSendPacket(Connection.java:513)
-[01:20:18] [Netty Server IO #2/WARN]: 	at net.minecraft.network.Connection.lambda$sendPacket$13(Connection.java:498)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-[01:20:18] [Netty Server IO #2/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1570)
-[01:20:18] [Netty Server IO #2/WARN]: Caused by: com.viaversion.viaversion.exception.InformativeException: Please report this on the Via support Discord or open an issue on the relevant GitHub repository
-[01:20:18] [Netty Server IO #2/WARN]: Source 0: com.viaversion.viaversion.rewriter.ComponentRewriter$$Lambda/0x0000017190f24a20
-[01:20:18] [Netty Server IO #2/WARN]: Caused by: java.lang.IllegalStateException: zip file closed
-[01:20:18] [Netty Server IO #2/WARN]: 	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:846)
-[01:20:18] [Netty Server IO #2/WARN]: 	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:338)
-[01:20:18] [Netty Server IO #2/WARN]: 	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:516)
-[01:20:18] [Netty Server IO #2/WARN]: 	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:471)
-[01:20:18] [Netty Server IO #2/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:209)
-[01:20:18] [Netty Server IO #2/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:592)
-[01:20:18] [Netty Server IO #2/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:169)
-[01:20:18] [Netty Server IO #2/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164)
-[01:20:18] [Netty Server IO #2/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
-[01:20:18] [Netty Server IO #2/WARN]: 	at ViaBackwards-5.0.1.jar//com.viaversion.viabackwards.protocol.v1_21to1_20_5.rewriter.ComponentRewriter1_21.inputSerializerVersion(ComponentRewriter1_21.java:59)
-[01:20:18] [Netty Server IO #2/WARN]: 	at ViaVersion-5.0.2-SNAPSHOT.jar//com.viaversion.viaversion.rewriter.ComponentRewriter.convertLegacyContents(ComponentRewriter.java:343)
-[01:20:18] [Netty Server IO #2/WARN]: 	at ViaVersion-5.0.2-SNAPSHOT.jar//com.viaversion.viaversion.rewriter.ComponentRewriter.handleHoverEvent(ComponentRewriter.java:316)
-[01:20:18] [Netty Server IO #2/WARN]: 	at ViaVersion-5.0.2-SNAPSHOT.jar//com.viaversion.viaversion.rewriter.ComponentRewriter.processCompoundTag(ComponentRewriter.java:291)
-[01:20:18] [Netty Server IO #2/WARN]: 	at ViaVersion-5.0.2-SNAPSHOT.jar//com.viaversion.viaversion.rewriter.ComponentRewriter.processTag(ComponentRewriter.java:263)
-[01:20:18] [Netty Server IO #2/WARN]: 	at ViaVersion-5.0.2-SNAPSHOT.jar//com.viaversion.viaversion.rewriter.ComponentRewriter.processListTag(ComponentRewriter.java:269)
-[01:20:18] [Netty Server IO #2/WARN]: 	at ViaVersion-5.0.2-SNAPSHOT.jar//com.viaversion.viaversion.rewriter.ComponentRewriter.processCompoundTag(ComponentRewriter.java:280)
-[01:20:18] [Netty Server IO #2/WARN]: 	at ViaVersion-5.0.2-SNAPSHOT.jar//com.viaversion.viaversion.rewriter.ComponentRewriter.processTag(ComponentRewriter.java:263)
-[01:20:18] [Netty Server IO #2/WARN]: 	at ViaVersion-5.0.2-SNAPSHOT.jar//com.viaversion.viaversion.rewriter.ComponentRewriter.passthroughAndProcess(ComponentRewriter.java:168)
-[01:20:18] [Netty Server IO #2/WARN]: 	at ViaVersion-5.0.2-SNAPSHOT.jar//com.viaversion.viaversion.api.protocol.AbstractProtocol.transform(AbstractProtocol.java:405)
-[01:20:18] [Netty Server IO #2/WARN]: 	at ViaVersion-5.0.2-SNAPSHOT.jar//com.viaversion.viaversion.protocol.packet.PacketWrapperImpl.apply(PacketWrapperImpl.java:369)
-[01:20:18] [Netty Server IO #2/WARN]: 	at ViaVersion-5.0.2-SNAPSHOT.jar//com.viaversion.viaversion.protocol.ProtocolPipelineImpl.transform(ProtocolPipelineImpl.java:122)
-[01:20:18] [Netty Server IO #2/WARN]: 	at ViaVersion-5.0.2-SNAPSHOT.jar//com.viaversion.viaversion.connection.UserConnectionImpl.transform(UserConnectionImpl.java:337)
-[01:20:18] [Netty Server IO #2/WARN]: 	at ViaVersion-5.0.2-SNAPSHOT.jar//com.viaversion.viaversion.connection.UserConnectionImpl.transformClientbound(UserConnectionImpl.java:313)
-[01:20:18] [Netty Server IO #2/WARN]: 	at ViaVersion-5.0.2-SNAPSHOT.jar//com.viaversion.viaversion.bukkit.handlers.BukkitEncodeHandler.encode(BukkitEncodeHandler.java:58)
-[01:20:18] [Netty Server IO #2/WARN]: 	at ViaVersion-5.0.2-SNAPSHOT.jar//com.viaversion.viaversion.bukkit.handlers.BukkitEncodeHandler.encode(BukkitEncodeHandler.java:35)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:90)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:113)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:113)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113)
-[01:20:18] [Netty Server IO #2/WARN]: 	at net.minecraft.network.Connection$2.write(Connection.java:756)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:940)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:966)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:934)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:984)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1025)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:306)
-[01:20:18] [Netty Server IO #2/WARN]: 	at net.minecraft.network.Connection.doSendPacket(Connection.java:513)
-[01:20:18] [Netty Server IO #2/WARN]: 	at net.minecraft.network.Connection.lambda$sendPacket$13(Connection.java:498)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-[01:20:18] [Netty Server IO #2/WARN]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-[01:20:18] [Netty Server IO #2/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1570)
-[01:20:18] [Server thread/INFO]: enVIdTech lost connection: Internal Exception: io.netty.handler.codec.EncoderException: com.viaversion.viaversion.exception.InformativeException: Please report this on the Via support Discord or open an issue on the relevant GitHub repository
-Source 0: com.viaversion.viaversion.rewriter.ComponentRewriter$$Lambda/0x0000017190f24a20
-[01:20:18] [Server thread/INFO]: enVIdTech left the game
-[01:20:52] [Server thread/INFO]: Stopping the server
-[01:20:52] [Server thread/INFO]: Stopping server
-[01:20:52] [Server thread/INFO]: [fun-plugin] Disabling fun-plugin v0.2
-[01:20:52] [Server thread/INFO]: [fun-plugin] Goodbye World!
-[01:20:52] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.2-SNAPSHOT
-[01:20:52] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.0.1
-[01:20:52] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.0.2-SNAPSHOT
-[01:20:52] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[01:20:52] [Server thread/INFO]: Saving players
-[01:20:52] [Server thread/INFO]: Saving worlds
-[01:20:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[01:20:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[01:20:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[01:20:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[01:20:52] [Server thread/INFO]: [ChunkHolderManager] Saved 19 block chunks, 11 entity chunks, 0 poi chunks in world 'world' in 0.03s
-[01:20:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[01:20:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[01:20:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[01:20:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[01:20:52] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
-[01:20:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[01:20:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[01:20:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[01:20:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[01:20:52] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[01:20:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[01:20:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:20:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01:20:52] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:45:15] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins\Night-Vision-1.1.jar' in 145ms.
+[16:45:15] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.0.2-SNAPSHOT
+[16:45:15] [Server thread/INFO]: [ViaVersion] ViaVersion 5.0.2-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[16:45:15] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, this should work fine. If you get any console errors, try rebooting.
+[16:45:17] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[16:45:17] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[16:45:18] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[16:45:18] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[16:45:18] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[16:45:19] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.0.1
+[16:45:19] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.2-SNAPSHOT
+[16:45:19] [Server thread/INFO]: [Night-Vision] Loading server plugin Night-Vision v0.2
+[16:45:19] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:45:19] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.2-SNAPSHOT
+[16:45:19] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.0.2-SNAPSHOT
+[16:45:19] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21 (767)
+[16:45:19] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.0.1
+[16:45:19] [Server thread/INFO]: [Night-Vision] Enabling Night-Vision v0.2
+[16:45:19] [Server thread/INFO]: [Night-Vision] Hello World!
+[16:45:19] [Server thread/INFO]: enVIdTech: Reload complete.
+[16:45:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5548ms or 110 ticks behind
+[16:45:19] [Server thread/INFO]: Timings Reset
+[16:45:19] [Craft Scheduler Thread - 7 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[16:45:19] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
+[16:45:22] [Server thread/INFO]: enVIdTech lost connection: Disconnected
+[16:45:22] [Server thread/INFO]: enVIdTech left the game
+[16:45:23] [User Authenticator #2/INFO]: UUID of player enVIdTech is 46edebbb-6958-4a8b-bc67-778234d18b23
+[16:45:23] [Server thread/INFO]: enVIdTech joined the game
+[16:45:23] [Server thread/INFO]: enVIdTech[/127.0.0.1:49282] logged in with entity id 163 at ([world]-0.09276529381117575, 69.0, -68.34729075375816)
+[16:45:27] [Server thread/INFO]: enVIdTech issued server command: /nv
+[16:45:27] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:45:27] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: false
+[16:45:27] [Server thread/INFO]: enVIdTech issued server command: /nv
+[16:45:27] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:45:27] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: true
+[16:45:28] [Server thread/INFO]: enVIdTech issued server command: /nv
+[16:45:28] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:45:28] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: false
+[16:45:29] [Server thread/INFO]: enVIdTech issued server command: /nv
+[16:45:29] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:45:29] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: true
+[16:45:30] [Server thread/INFO]: enVIdTech issued server command: /nv
+[16:45:30] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:45:30] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: false
+[16:45:30] [Server thread/INFO]: enVIdTech issued server command: /nv
+[16:45:30] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:45:30] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: true
+[16:45:31] [Server thread/INFO]: enVIdTech issued server command: /nv
+[16:45:31] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:45:31] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: false
+[16:45:32] [Server thread/INFO]: enVIdTech issued server command: /nv
+[16:45:32] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:45:32] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: true
+[16:45:38] [Server thread/INFO]: [Night-Vision] [STDOUT] Key pressed by enVIdTech
+[16:45:38] [Server thread/INFO]: [Night-Vision] [STDOUT] Action: LEFT_CLICK_BLOCK
+[16:45:39] [Server thread/INFO]: [Night-Vision] [STDOUT] Key pressed by enVIdTech
+[16:45:39] [Server thread/INFO]: [Night-Vision] [STDOUT] Action: LEFT_CLICK_BLOCK
+[16:45:39] [Server thread/INFO]: [Night-Vision] [STDOUT] Key pressed by enVIdTech
+[16:45:39] [Server thread/INFO]: [Night-Vision] [STDOUT] Action: LEFT_CLICK_BLOCK
+[16:45:39] [Server thread/INFO]: [Night-Vision] [STDOUT] Key pressed by enVIdTech
+[16:45:39] [Server thread/INFO]: [Night-Vision] [STDOUT] Action: LEFT_CLICK_AIR
+[16:45:40] [Server thread/INFO]: [Night-Vision] [STDOUT] Key pressed by enVIdTech
+[16:45:40] [Server thread/INFO]: [Night-Vision] [STDOUT] Action: LEFT_CLICK_AIR
+[16:45:40] [Server thread/INFO]: [Night-Vision] [STDOUT] Key pressed by enVIdTech
+[16:45:40] [Server thread/INFO]: [Night-Vision] [STDOUT] Action: LEFT_CLICK_BLOCK
+[16:45:40] [Server thread/INFO]: [Night-Vision] [STDOUT] Key pressed by enVIdTech
+[16:45:40] [Server thread/INFO]: [Night-Vision] [STDOUT] Action: LEFT_CLICK_AIR
+[16:45:40] [Server thread/INFO]: [Night-Vision] [STDOUT] Key pressed by enVIdTech
+[16:45:40] [Server thread/INFO]: [Night-Vision] [STDOUT] Action: LEFT_CLICK_AIR
+[16:45:41] [Server thread/INFO]: [Night-Vision] [STDOUT] Key pressed by enVIdTech
+[16:45:41] [Server thread/INFO]: [Night-Vision] [STDOUT] Action: LEFT_CLICK_AIR
+[16:45:41] [Server thread/INFO]: [Night-Vision] [STDOUT] Key pressed by enVIdTech
+[16:45:41] [Server thread/INFO]: [Night-Vision] [STDOUT] Action: LEFT_CLICK_AIR
+[16:45:42] [Server thread/INFO]: [Night-Vision] [STDOUT] Key pressed by enVIdTech
+[16:45:42] [Server thread/INFO]: [Night-Vision] [STDOUT] Action: LEFT_CLICK_AIR
+[16:45:42] [Server thread/INFO]: [Night-Vision] [STDOUT] Key pressed by enVIdTech
+[16:45:42] [Server thread/INFO]: [Night-Vision] [STDOUT] Action: LEFT_CLICK_AIR
+[16:45:43] [Server thread/INFO]: [Night-Vision] [STDOUT] Key pressed by enVIdTech
+[16:45:43] [Server thread/INFO]: [Night-Vision] [STDOUT] Action: LEFT_CLICK_AIR
+[16:45:43] [Server thread/INFO]: [Night-Vision] [STDOUT] Key pressed by enVIdTech
+[16:45:43] [Server thread/INFO]: [Night-Vision] [STDOUT] Action: LEFT_CLICK_AIR
+[16:45:43] [Server thread/INFO]: [Night-Vision] [STDOUT] Key pressed by enVIdTech
+[16:45:43] [Server thread/INFO]: [Night-Vision] [STDOUT] Action: LEFT_CLICK_AIR
+[16:45:43] [Server thread/INFO]: [Night-Vision] [STDOUT] Key pressed by enVIdTech
+[16:45:43] [Server thread/INFO]: [Night-Vision] [STDOUT] Action: LEFT_CLICK_AIR
+[16:45:43] [Server thread/INFO]: [Night-Vision] [STDOUT] Key pressed by enVIdTech
+[16:45:43] [Server thread/INFO]: [Night-Vision] [STDOUT] Action: RIGHT_CLICK_BLOCK
+[16:45:43] [Server thread/INFO]: [Night-Vision] [STDOUT] Key pressed by enVIdTech
+[16:45:43] [Server thread/INFO]: [Night-Vision] [STDOUT] Action: RIGHT_CLICK_BLOCK
+[16:45:44] [Server thread/INFO]: [Night-Vision] [STDOUT] Key pressed by enVIdTech
+[16:45:44] [Server thread/INFO]: [Night-Vision] [STDOUT] Action: RIGHT_CLICK_BLOCK
+[16:45:44] [Server thread/INFO]: [Night-Vision] [STDOUT] Key pressed by enVIdTech
+[16:45:44] [Server thread/INFO]: [Night-Vision] [STDOUT] Action: RIGHT_CLICK_BLOCK
+[16:45:44] [Server thread/INFO]: [Night-Vision] [STDOUT] Key pressed by enVIdTech
+[16:45:44] [Server thread/INFO]: [Night-Vision] [STDOUT] Action: RIGHT_CLICK_BLOCK
+[16:45:44] [Server thread/INFO]: [Night-Vision] [STDOUT] Key pressed by enVIdTech
+[16:45:44] [Server thread/INFO]: [Night-Vision] [STDOUT] Action: RIGHT_CLICK_BLOCK
+[16:45:50] [Server thread/INFO]: [Night-Vision] [STDOUT] Key pressed by enVIdTech
+[16:45:50] [Server thread/INFO]: [Night-Vision] [STDOUT] Action: RIGHT_CLICK_BLOCK
+[16:45:51] [Server thread/INFO]: [Night-Vision] [STDOUT] Key pressed by enVIdTech
+[16:45:51] [Server thread/INFO]: [Night-Vision] [STDOUT] Action: LEFT_CLICK_BLOCK
+[16:47:02] [Server thread/INFO]: enVIdTech issued server command: /reload confirm
+[16:47:02] [Server thread/INFO]: enVIdTech: Please note that this command is not supported and may cause issues when using some plugins.
+[16:47:02] [Server thread/INFO]: enVIdTech: If you encounter any issues please use the /stop command to restart your server.
+[16:47:02] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:47:02] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:47:02] [Server thread/INFO]: [Night-Vision] Disabling Night-Vision v0.2
+[16:47:02] [Server thread/INFO]: [Night-Vision] Goodbye World!
+[16:47:02] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.2-SNAPSHOT
+[16:47:02] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.0.1
+[16:47:02] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.0.2-SNAPSHOT
+[16:47:02] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[16:47:02] [Server thread/INFO]: Loaded 1290 recipes
+[16:47:02] [Server thread/INFO]: Loaded 1399 advancements
+[16:47:03] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins\Night-Vision-1.1.jar'...
+[16:47:03] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins\Night-Vision-1.1.jar' in 318ms.
+[16:47:05] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.0.2-SNAPSHOT
+[16:47:05] [Server thread/INFO]: [ViaVersion] ViaVersion 5.0.2-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[16:47:05] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, this should work fine. If you get any console errors, try rebooting.
+[16:47:07] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[16:47:07] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[16:47:07] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[16:47:07] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[16:47:08] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[16:47:09] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.0.1
+[16:47:09] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.2-SNAPSHOT
+[16:47:09] [Server thread/INFO]: [Night-Vision] Loading server plugin Night-Vision v0.2
+[16:47:09] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:47:09] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.2-SNAPSHOT
+[16:47:09] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.0.2-SNAPSHOT
+[16:47:09] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21 (767)
+[16:47:09] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.0.1
+[16:47:09] [Server thread/INFO]: [Night-Vision] Enabling Night-Vision v0.2
+[16:47:09] [Server thread/INFO]: [Night-Vision] Hello World!
+[16:47:09] [Server thread/INFO]: enVIdTech: Reload complete.
+[16:47:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7103ms or 142 ticks behind
+[16:47:09] [Server thread/INFO]: Timings Reset
+[16:47:09] [Craft Scheduler Thread - 10 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[16:47:09] [Server thread/WARN]: enVIdTech moved too quickly! -9.801206351266243,-2.0327133828624397,1.3422123589713522
+[16:47:09] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:09] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: false
+[16:47:09] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
+[16:47:10] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:10] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: true
+[16:47:10] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:10] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: false
+[16:47:11] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:11] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: true
+[16:47:12] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:12] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: false
+[16:47:12] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:12] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: true
+[16:47:12] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:12] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: false
+[16:47:12] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:12] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: true
+[16:47:12] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:12] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: false
+[16:47:13] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:13] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: true
+[16:47:13] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:13] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: false
+[16:47:18] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:18] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: true
+[16:47:19] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:19] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: false
+[16:47:19] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:19] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: true
+[16:47:19] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:19] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: false
+[16:47:19] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:19] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: true
+[16:47:20] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:20] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: false
+[16:47:20] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:20] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: true
+[16:47:20] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:20] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: false
+[16:47:20] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:20] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: true
+[16:47:20] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:20] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: false
+[16:47:21] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:21] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: true
+[16:47:21] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:21] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: false
+[16:47:21] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:21] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: true
+[16:47:23] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:23] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: false
+[16:47:24] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:24] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: true
+[16:47:24] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:24] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: false
+[16:47:24] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:24] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: true
+[16:47:24] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:24] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: false
+[16:47:24] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:24] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: true
+[16:47:25] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:25] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: false
+[16:47:25] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:25] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: true
+[16:47:25] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:25] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: false
+[16:47:26] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:26] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: true
+[16:47:27] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:27] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: false
+[16:47:27] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:27] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: true
+[16:47:27] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:27] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: false
+[16:47:31] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:31] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: true
+[16:47:32] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:32] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: false
+[16:47:32] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:32] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: true
+[16:47:32] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:32] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: false
+[16:47:32] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:32] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: true
+[16:47:33] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:33] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: false
+[16:47:33] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:33] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: true
+[16:47:34] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:34] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: false
+[16:47:35] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:35] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: true
+[16:47:35] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:35] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: false
+[16:47:36] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:36] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: true
+[16:47:36] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:36] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: false
+[16:47:36] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:36] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: true
+[16:47:41] [Server thread/INFO]: [Night-Vision] [STDOUT] Command executed by enVIdTech
+[16:47:41] [Server thread/INFO]: [Night-Vision] [STDOUT] enVIdTech has night vision: false
+[16:47:47] [Server thread/INFO]: enVIdTech lost connection: Disconnected
+[16:47:47] [Server thread/INFO]: enVIdTech left the game
+[17:20:19] [Server thread/INFO]: Unknown or incomplete command, see below for error
+p<--[HERE]
+[17:20:21] [Server thread/INFO]: Stopping the server
+[17:20:21] [Server thread/INFO]: Stopping server
+[17:20:21] [Server thread/INFO]: [Night-Vision] Disabling Night-Vision v0.2
+[17:20:21] [Server thread/INFO]: [Night-Vision] Goodbye World!
+[17:20:21] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.2-SNAPSHOT
+[17:20:21] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.0.1
+[17:20:21] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.0.2-SNAPSHOT
+[17:20:21] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[17:20:21] [Server thread/INFO]: Saving players
+[17:20:21] [Server thread/INFO]: Saving worlds
+[17:20:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:20:21] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[17:20:21] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[17:20:21] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[17:20:21] [Server thread/INFO]: [ChunkHolderManager] Saved 11 block chunks, 15 entity chunks, 0 poi chunks in world 'world' in 0.04s
+[17:20:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[17:20:21] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[17:20:21] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[17:20:21] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[17:20:21] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[17:20:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[17:20:21] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[17:20:21] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[17:20:21] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[17:20:21] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[17:20:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:20:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:20:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:20:21] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
